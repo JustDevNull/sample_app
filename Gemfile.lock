@@ -124,7 +124,7 @@ GEM
     ffi (1.17.2-x86_64-linux-musl)
     formatador (1.2.0)
       reline
-    fugit (1.11.1)
+    fugit (1.11.2)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
     globalid (1.2.1)
@@ -305,7 +305,7 @@ GEM
     reline (0.6.2)
       io-console (~> 0.5)
     rexml (3.4.1)
-    rubocop (1.79.2)
+    rubocop (1.80.0)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -334,7 +334,7 @@ GEM
       rubocop-performance (>= 1.24)
       rubocop-rails (>= 2.30)
     ruby-progressbar (1.13.0)
-    rubyzip (3.0.1)
+    rubyzip (3.0.2)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -432,7 +432,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bootstrap-sass
+  bootstrap-sass (~> 3.4, >= 3.4.1)
   brakeman
   capybara
   debug
@@ -447,12 +447,13 @@ DEPENDENCIES
   puma (>= 5.0)
   rails (~> 8.0.2)
   rubocop-rails-omakase
-  sassc-rails
+  sassc-rails (~> 2.1, >= 2.1.2)
   selenium-webdriver
   solid_cable
   solid_cache
   solid_queue
-  sprockets-rails
+  sprockets (~> 4.2, >= 4.2.2)
+  sprockets-rails (~> 3.5, >= 3.5.2)
   sqlite3 (>= 2.1)
   stimulus-rails
   thruster

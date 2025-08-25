@@ -69,6 +69,7 @@ group :production do
   gem "pg", "~> 1.6.1" # Use PostgreSQL as the database for Active Record
 end
 
-gem "bootstrap-sass"
-gem "sassc-rails"
-gem "sprockets-rails"
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
+gem 'sprockets-rails', '~> 3.5', '>= 3.5.2'
+gem 'sprockets', '~> 4.2', '>= 4.2.2'
