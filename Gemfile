@@ -68,3 +68,7 @@ end
 group :production do
   gem "pg", "~> 1.6.1" # Use PostgreSQL as the database for Active Record
 end
+
+gem "bootstrap-sass"
+gem "sassc-rails"
+gem "sprockets-rails"
