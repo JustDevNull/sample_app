@@ -67,7 +67,7 @@ group :test do
 end
 
 group :production do
-  gem "pg", "~> 1.6.1" # Use PostgreSQL as the database for Active Record
+  gem "pg", "~> 1.6.2" # Use PostgreSQL as the database for Active Record
 end
 
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
